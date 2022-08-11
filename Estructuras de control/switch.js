@@ -1,11 +1,11 @@
 // cSpell:disable
 /* -------------------------------- Variables ------------------------------- */
-let vocalVar = 'e', messageToPrint = '';
+let vocal = 'e', messageToPrint = '';
 
 
 /* ------------------------------- Operaciones ------------------------------ */
 
-switch (vocalVar) {
+switch (vocal) {
     case 'A':
     case 'E':
     case 'I':
@@ -16,11 +16,11 @@ switch (vocalVar) {
     case 'i':
     case 'o':
     case 'u':
-        messageToPrint = `${vocalVar} es vocal.`;
+        messageToPrint = `${vocal} es vocal.`;
         break;
 
     default:
-        messageToPrint = `${vocalVar} no es vocal.`;
+        messageToPrint = `${vocal} no es vocal.`;
 }
 
 

@@ -1,18 +1,18 @@
 // cSpell:disable
 /* -------------------------------- Variables ------------------------------- */
-let firstNumberVar = 1, secondNumberVar = 1, quotientVar = 0, remainderVar = 0; //Define multiples variables.
+let firstNumber = 1, secondNumber = 1, quotient = 0, remainder = 0; //Define multiples variables.
 
 
 /* -------------------------------- Entradas -------------------------------- */
-firstNumberVar = Number(prompt('Ingrese un número entero')); //Recibe y convierte la primer entrada.
-secondNumberVar = Number(prompt('Ingrese un número entero')); //Recibe y convierte la segunda entrada.
+firstNumber = Number(prompt('Ingrese un número entero')); //Recibe y convierte la primer entrada.
+secondNumber = Number(prompt('Ingrese un número entero')); //Recibe y convierte la segunda entrada.
 
 
 /* -------------------------------- Procesos -------------------------------- */
-quotientVar = firstNumberVar / secondNumberVar;
-remainderVar = firstNumberVar % secondNumberVar;
+quotient = firstNumber / secondNumber;
+remainder = firstNumber % secondNumber;
 
 
 /* --------------------------------- Salidas -------------------------------- */
-document.write('Resto: ', remainderVar, '<br>');
-document.write('Cociente: ', quotientVar);
+document.write('Resto: ', remainder, '<br>');
+document.write('Cociente: ', quotient);

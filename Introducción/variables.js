@@ -1,9 +1,9 @@
 // cSpell:disable
-const surnameVar = 'Hoz'; //Define una variable constante (inmodificable).
-console.log(surnameVar);
+const surname = 'Hoz'; //Define una variable constante (inmodificable).
+console.log(surname);
 
-let nameVar = 'Lucas'; //Define una variable.
-console.log(nameVar);
+let name = 'Lucas'; //Define una variable.
+console.log(name);
 
-nameVar = 'Lucas'; //Modifica la variable definida previamente.
-console.log(nameVar);
+name = 'Nahuel'; //Modifica la variable definida previamente.
+console.log(name);

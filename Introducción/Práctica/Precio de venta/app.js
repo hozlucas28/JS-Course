@@ -1,24 +1,24 @@
 // cSpell:disable
 /* -------------------------------- Variables ------------------------------- */
-let saleValueVar = 0, salePriceVar = 0, IGVVar = 0;
+let saleValue = 0, salePrice = 0, IGV = 0;
 
 
 /* --------------------------------- Entrada -------------------------------- */
-saleValueVar = parseFloat(prompt('Ingrese el precio de venta'));
+saleValue = parseFloat(prompt('Ingrese el precio de venta'));
 
 
 /* -------------------------------- Procesos -------------------------------- */
-IGVVar = saleValueVar * 0.19;
-salePriceVar = saleValueVar + IGVVar;
+IGV = saleValue * 0.19;
+salePrice = saleValue + IGV;
 
 
 /* --------------------------------- Salidas -------------------------------- */
 //Primer método de salida.
 /*
-document.write('IGV: ', IGVVar, '<br>');
-document.write('Valor de venta: ', salePriceVar, '<br>');
-document.write('Precio de venta: ', saleValueVar);
+document.write('IGV: ', IGV, '<br>');
+document.write('Valor de venta: ', salePrice, '<br>');
+document.write('Precio de venta: ', saleValue);
 */
 
 //Segundo método de salida.
-document.write(`IGV: ${IGVVar}<br>Valor de venta: ${salePriceVar}<br>Precio de venta: ${saleValueVar}`);
+document.write(`IGV: ${IGV}<br>Valor de venta: ${salePrice}<br>Precio de venta: ${saleValue}`);

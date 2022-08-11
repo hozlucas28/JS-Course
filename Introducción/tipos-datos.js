@@ -1,12 +1,12 @@
 // cSpell:disable
-let undefinedVar; //Undefined (indefinido).
-console.log(typeof(undefinedVar)); //Devuelve el tipo de dato de dicha variable.
+let undefined; //Undefined (indefinido).
+console.log(typeof(undefined)); //Devuelve el tipo de dato de dicha variable.
 
-let textVar = 'Texto'; //String (texto).
-console.log(typeof(textVar));
+let text = 'Texto'; //String (texto).
+console.log(typeof(text));
 
-let numberVar = 25; //Number (número).
-console.log(typeof(numberVar));
+let number = 25; //Number (número).
+console.log(typeof(number));
 
-let booleanVar = true; //Boolean (verdadero ó falso).
-console.log(typeof(booleanVar));
+let boolean = true; //Boolean (verdadero ó falso).
+console.log(typeof(boolean));

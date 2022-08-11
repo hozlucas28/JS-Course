@@ -8,27 +8,27 @@
 
 
 /* ---------------------------- Texto --> Número ---------------------------- */
-let stringToNumberVar = 'Hola Mundo';
-console.log(typeof(stringToNumberVar));
+let stringToNumber = 'Hola Mundo';
+console.log(typeof(stringToNumber));
 
-//stringToNumberVar = Number(stringToNumberVar); //Primer método.
-stringToNumberVar = parseInt(stringToNumberVar); //Segundo método.
-console.log(typeof(stringToNumberVar));
+//stringToNumber = Number(stringToNumber); //Primer método.
+stringToNumber = parseInt(stringToNumber); //Segundo método.
+console.log(typeof(stringToNumber));
 
 
 /* ---------------------------- Número --> Texto ---------------------------- */
-let numberToStringVar = 15;
-console.log(typeof(numberToStringVar));
+let numberToString = 15;
+console.log(typeof(numberToString));
 
-//numberToStringVar = String(numberToStringVar); //Primer método.
-numberToStringVar = toString(numberToStringVar); //Segundo método.
-console.log(typeof(numberToStringVar));
+//numberToString = String(numberToString); //Primer método.
+numberToString = toString(numberToString); //Segundo método.
+console.log(typeof(numberToString));
 
 
 /* ---------------------------- Texto --> Decimal --------------------------- */
-let stringToFloatVar = 'Hola Mundo';
-console.log(typeof(stringToFloatVar));
+let stringToFloat = 'Hola Mundo';
+console.log(typeof(stringToFloat));
 
-//stringToFloatVar = Number(stringToFloatVar); //Primer método.
-stringToFloatVar = parseFloat(stringToFloatVar); //Segundo método.
-console.log(typeof(stringToFloatVar));
+//stringToFloat = Number(stringToFloat); //Primer método.
+stringToFloat = parseFloat(stringToFloat); //Segundo método.
+console.log(typeof(stringToFloat));

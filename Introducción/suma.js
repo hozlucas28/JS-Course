@@ -1,16 +1,17 @@
 // cSpell:disable
 /* -------------------------------- Variables ------------------------------- */
-let firstNumberVar = prompt('Ingrese un número'); //Obtiene el valor ingresado en la página, mediante una alerta.
-let secondNumberVar = prompt('Ingrese un número');
+let sum = 0;
+let firstNumber = prompt('Ingrese un número'); //Obtiene el valor ingresado en la página, mediante una alerta.
+let secondNumber = prompt('Ingrese un número');
 
 //Convertir "String" a "Number".
-firstNumberVar = Number(firstNumberVar);
-secondNumberVar = Number(secondNumberVar);
+firstNumber = Number(firstNumber);
+secondNumber = Number(secondNumber);
 
 
 /* ------------------------------- Operaciones ------------------------------ */
-let sumVar = firstNumberVar + secondNumberVar;
+sum = firstNumber + secondNumber;
 
 
 /* --------------------------------- Salidas -------------------------------- */
-document.write('La suma es: ', sumVar);
+document.write('La suma es: ', sum);

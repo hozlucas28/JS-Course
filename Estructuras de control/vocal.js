@@ -1,26 +1,26 @@
 // cSpell:disable
 /* -------------------------------- Variables ------------------------------- */
-let vocalVar = '10', messageToPrintVar = '';
+let vocal = '10', messageToPrint = '';
 
 
 /* ------------------------------- Operaciones ------------------------------ */
 
-if ((vocalVar === 'A') || (vocalVar === 'a')) {
-    messageToPrintVar = `${vocalVar} es vocal.`;
+if ((vocal === 'A') || (vocal === 'a')) {
+    messageToPrint = `${vocal} es vocal.`;
 } else {
-    if ((vocalVar === 'E') || (vocalVar === 'e')) {
-        messageToPrintVar = `${vocalVar} es vocal.`;
+    if ((vocal === 'E') || (vocal === 'e')) {
+        messageToPrint = `${vocal} es vocal.`;
     } else {
-        if ((vocalVar === 'I') || (vocalVar === 'i')) {
-            messageToPrintVar = `${vocalVar} es vocal.`;
+        if ((vocal === 'I') || (vocal === 'i')) {
+            messageToPrint = `${vocal} es vocal.`;
         } else {
-            if ((vocalVar === 'O') || (vocalVar === 'o')) {
-                messageToPrintVar = `${vocalVar} es vocal.`;
+            if ((vocal === 'O') || (vocal === 'o')) {
+                messageToPrint = `${vocal} es vocal.`;
             } else {
-                if ((vocalVar === 'U') || (vocalVar === 'u')) {
-                    messageToPrintVar = `${vocalVar} es vocal.`;
+                if ((vocal === 'U') || (vocal === 'u')) {
+                    messageToPrint = `${vocal} es vocal.`;
                 } else {
-                    messageToPrintVar = `${vocalVar} no es vocal.`;                
+                    messageToPrint = `${vocal} no es vocal.`;                
                 };            
             };        
         };    
@@ -30,4 +30,4 @@ if ((vocalVar === 'A') || (vocalVar === 'a')) {
 
 /* --------------------------------- Salida --------------------------------- */
 
-console.log(messageToPrintVar);
+console.log(messageToPrint);

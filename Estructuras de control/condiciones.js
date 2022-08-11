@@ -1,30 +1,30 @@
 // cSpell:disable
 /* -------------------------------- Variables ------------------------------- */
-
-let numberVar = -3, messageToPrintVar = '';
+let number = -3;
+let messageToPrint = '';
 
 
 /* ------------------------------- Operaciones ------------------------------ */
 
-if (numberVar !== 0) {
-    if (numberVar > 0) {
-        if ((numberVar % 2) === 0) {
-            messageToPrintVar = `El número ${numberVar} es par positivo.`
+if (number !== 0) {
+    if (number > 0) {
+        if ((number % 2) === 0) {
+            messageToPrint = `El número ${number} es par positivo.`
         } else {
-            messageToPrintVar = `El número ${numberVar} es impar positivo.`
+            messageToPrint = `El número ${number} es impar positivo.`
         };
     } else {
-        if ((numberVar % 2) === 0) {
-            messageToPrintVar = `El número ${numberVar} es par negativo.`
+        if ((number % 2) === 0) {
+            messageToPrint = `El número ${number} es par negativo.`
         } else {
-            messageToPrintVar = `El número ${numberVar} es impar negativo.`
+            messageToPrint = `El número ${number} es impar negativo.`
         };
     }
 } else {
-    messageToPrintVar = `El número ${numberVar} es neutro.`
+    messageToPrint = `El número ${number} es neutro.`
 }
 
 
 /* --------------------------------- Salida --------------------------------- */
 
-console.log(messageToPrintVar);
+console.log(messageToPrint);
