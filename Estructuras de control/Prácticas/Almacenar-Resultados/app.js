@@ -6,7 +6,7 @@ let pairNumbers = [], oddNumbers = [], numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 /* --------------------------- Procesos y Salidas --------------------------- */
 
-for (let i = 0; i < numbers.length; i++) {
+for (let i in numbers) {
     randomNumber = Math.round((Math.random()*100));
     number = randomNumber * numbers[i];
 
