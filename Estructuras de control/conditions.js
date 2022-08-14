@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variables ------------------------------- */
 let number = -3;
 let messageToPrint = '';

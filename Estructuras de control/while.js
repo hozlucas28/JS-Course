@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variables ------------------------------- */
 let i = 0, j = 0, z = 0, number = 2, counter = 0;
 let text = 'JavaScript', students = ['Alex', 'Juan', 'Manuel', 'Alejandro'];

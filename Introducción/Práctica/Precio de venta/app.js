@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variables ------------------------------- */
 let saleValue = 0, salePrice = 0, IGV = 0;
 

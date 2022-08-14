@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variables ------------------------------- */
 let number = 0, randomNumber = 0;
 let pairNumbers = [], oddNumbers = [], numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];

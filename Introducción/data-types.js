@@ -1,4 +1,4 @@
-// cSpell:disable
+
 let undefined; //Undefined (indefinido).
 console.log(typeof(undefined)); //Devuelve el tipo de dato de dicha variable.
 

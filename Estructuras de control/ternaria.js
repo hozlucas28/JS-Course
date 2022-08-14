@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variables ------------------------------- */
 let number = -12;
 let vocal = 'h', messageToPrintOne = '', messageToPrintTwo = '';

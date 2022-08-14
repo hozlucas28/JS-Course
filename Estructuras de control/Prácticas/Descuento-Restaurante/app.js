@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variables ------------------------------- */
 let tax = 0, payment = 0, discount = 0, totalToPay = 0, paymentWithDiscount = 0;
 let dataDiscount = '';

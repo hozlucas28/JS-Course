@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variable -------------------------------- */
 let messageToPrintOne = [], messageToPrintTwo = ['Juan', 'Manuel', 'Hernesto', 'Marcos'];
 

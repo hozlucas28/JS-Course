@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variables ------------------------------- */
 let firstNumber = 1, secondNumber = 1, quotient = 0, remainder = 0; //Define multiples variables.
 

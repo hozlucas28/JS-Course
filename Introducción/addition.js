@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* -------------------------------- Variables ------------------------------- */
 let addition = 0;
 let firstNumber = prompt('Ingrese un número'); //Obtiene el valor ingresado en la página, mediante una alerta.

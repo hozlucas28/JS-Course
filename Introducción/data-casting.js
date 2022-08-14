@@ -1,4 +1,4 @@
-// cSpell:disable
+
 /* --------------------------------------------------------------------------
     CONVERTIR TIPOS DE DATOS:
     • A texto => String(VARIABLE) ó toString(VARIABLE).

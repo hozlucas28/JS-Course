@@ -1,4 +1,4 @@
-// cSpell:disable
+
 const surname = 'Hoz'; //Define una variable constante (inmodificable).
 console.log(surname);
 
