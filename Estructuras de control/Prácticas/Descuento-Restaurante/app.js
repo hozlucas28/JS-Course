@@ -25,6 +25,7 @@ switch (true) {
     default:
         dataDiscount = '30%';
         discount = payment * 0.3;
+        break;
 };
 
 paymentWithDiscount = payment - discount;

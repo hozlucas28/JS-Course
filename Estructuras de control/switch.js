@@ -21,6 +21,7 @@ switch (vocal) {
 
     default:
         messageToPrint = `${vocal} no es vocal.`;
+        break;
 }
 
 
