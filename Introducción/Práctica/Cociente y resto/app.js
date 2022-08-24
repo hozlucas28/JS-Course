@@ -1,18 +1,20 @@
 
-/* -------------------------------- Variables ------------------------------- */
-let firstNumber = 1, secondNumber = 1, quotient = 0, remainder = 0; //Define multiples variables.
+/* -------------------------- Variables y Entradas -------------------------- */
 
+let quotient = 0, remainder = 0;
+let firstNumber = Number(prompt('Ingrese un número entero')),
+    secondNumber = Number(prompt('Ingrese un número entero'));
 
-/* -------------------------------- Entradas -------------------------------- */
-firstNumber = Number(prompt('Ingrese un número entero')); //Recibe y convierte la primer entrada.
-secondNumber = Number(prompt('Ingrese un número entero')); //Recibe y convierte la segunda entrada.
 
 
 /* -------------------------------- Procesos -------------------------------- */
+
 quotient = firstNumber / secondNumber;
 remainder = firstNumber % secondNumber;
 
 
-/* --------------------------------- Salidas -------------------------------- */
-document.write('Resto: ', remainder, '<br>');
+
+/* ----------------------------- Modificaciones ----------------------------- */
+
 document.write('Cociente: ', quotient);
+document.write('Resto: ', remainder, '<br>');

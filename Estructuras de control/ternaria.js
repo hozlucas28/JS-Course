@@ -4,7 +4,8 @@ let number = -12;
 let vocal = 'h', messageToPrintOne = '', messageToPrintTwo = '';
 
 
-/* ------------------------------- Operaciones ------------------------------ */
+
+/* -------------------------------- Procesos -------------------------------- */
 
 //Condición ternaria (simple).
 messageToPrintOne = (number > 0) ? 'Es positivo.' : 'Es negativo.';
@@ -18,6 +19,7 @@ messageToPrintTwo = ((vocal === 'A') || (vocal === 'a')) ? `${vocal} es vocal.`
                     :`${vocal} no es vocal.`
 
 
-/* --------------------------------- Salida --------------------------------- */
+
+/* --------------------------------- Salidas -------------------------------- */
 
 console.log(`${messageToPrintOne} | ${messageToPrintTwo}`);

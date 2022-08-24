@@ -1,12 +1,15 @@
 
-let undefined; //Undefined (indefinido).
-console.log(typeof(undefined)); //Devuelve el tipo de dato de dicha variable.
-
+/* -------------------------------- Variables ------------------------------- */
 let text = 'Texto'; //String (texto).
-console.log(typeof(text));
-
 let number = 25; //Number (número).
-console.log(typeof(number));
+let boolean = true; //Boolean (verdadero/falso).
+let undefined; //Undefined (indefinido).
 
-let boolean = true; //Boolean (verdadero ó falso).
+
+
+/* --------------------------------- Salidas -------------------------------- */
+
+console.log(typeof(text));
+console.log(typeof(number));
 console.log(typeof(boolean));
+console.log(typeof(undefined)); //<typeof(VAR)> devuelve el tipo de dato.

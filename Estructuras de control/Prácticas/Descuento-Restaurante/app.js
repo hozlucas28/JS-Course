@@ -4,12 +4,14 @@ let tax = 0, payment = 0, discount = 0, totalToPay = 0, paymentWithDiscount = 0;
 let dataDiscount = '';
 
 
-/* --------------------------------- Entrada -------------------------------- */
+
+/* -------------------------------- Entradas -------------------------------- */
 
 payment = parseFloat(prompt('Ingrese el monto a pagar'));
 
 
-/* ------------------------------- Operaciones ------------------------------ */
+
+/* -------------------------------- Procesos -------------------------------- */
 
 switch (true) {
     case (payment <= 100):
@@ -32,6 +34,7 @@ paymentWithDiscount = payment - discount;
 
 tax = paymentWithDiscount * 0.19;
 totalToPay = paymentWithDiscount + tax;
+
 
 
 /* --------------------------------- Salidas -------------------------------- */

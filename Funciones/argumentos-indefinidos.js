@@ -3,9 +3,10 @@
 let operation = 0;
 
 
+
 /* -------------------------------- Funciones ------------------------------- */
 
-function add(...arguments) { //El parametro indica 'infinitos' envios.
+function add(...arguments) { //Los <...> indican argumentos 'infinitos'.
     let add = 0;
 
     for (let i of arguments) {
@@ -16,9 +17,11 @@ function add(...arguments) { //El parametro indica 'infinitos' envios.
 };
 
 
-/* ------------------------------- Operaciones ------------------------------ */
+
+/* -------------------------------- Procesos -------------------------------- */
 
 operation = add(40, 50, 70, 82, 90);
+
 
 
 /* --------------------------------- Salidas -------------------------------- */

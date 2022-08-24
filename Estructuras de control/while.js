@@ -4,7 +4,8 @@ let i = 0, j = 0, z = 0, number = 2, counter = 0;
 let text = 'JavaScript', students = ['Alex', 'Juan', 'Manuel', 'Alejandro'];
 
 
-/* -------------------------- Operaciones y Salidas ------------------------- */
+
+/* --------------------------- Procesos y Salidas --------------------------- */
 
 while (counter <= 10) { //Verifica condición y ejecuta.
     console.log(`${number} x ${counter} = ${number * counter}`); //Primer salida.
