@@ -4,21 +4,23 @@
  *          Las funciones recursivas se ejecutan a si mismas varias veces,
  *          podríamos interpretarlas como un <for>. Esta aplicación me 
  *          devuelve el factorial de la variable.
+ *
+ *            - <Array.toUpperCase()>: transforma a mayúsculas el String.
+ *            - <Array.toLowerCase()>: transforma a minúsculas el String.
+ *            - <Array.replace(BUSCAR LETRA, REMPLAZO)>: modifica la letra encontrada.
+ *
+ *            - <Array.reverse()>: invierte el orden de los elementos del Array,
+ *                                 es decir, final --> principio.
+ *
+ *            - <Array.join(' ')>: convierte el Array en un String, según el argumento,
+ *                                 con espacios entre los campos.
+ *
+ *            - <Array.split('PARAMETRO')>: convierte y separa las letras/palabras
+ *                                          (según el parámetro) en campos de un Array.
  * 
  * 
  * IMPORTANTE:
- *             - <Array.toUpperCase()>: transforma a mayúsculas el String.
- *             - <Array.toLowerCase()>: transforma a minúsculas el String.
- *             - <Array.replace(BUSCAR LETRA, REMPLAZO)>: modifica la letra encontrada.
- *
- *             - <Array.reverse()>: invierte el orden de los elementos del Array,
- *                                  es decir, final --> principio.
- *
- *             - <Array.join(' ')>: convierte el Array en un String, según el argumento,
- *                                  con espacios entre los campos.
- *
- *             - <Array.split('PARAMETRO')>: convierte y separa las letras/palabras
- *                                           (según el parámetro) en campos de un Array.
+ *             - XXX.
 -------------------------------------------------------------------------- */
 
 
