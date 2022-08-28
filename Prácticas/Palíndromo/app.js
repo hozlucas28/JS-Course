@@ -7,7 +7,7 @@ let word = prompt('Ingrese una palabra:');
 /* -------------------------------- Funciones ------------------------------- */
 
 const isPalindrome = (word) => {
-    let invertedWord;
+    let invertedWord = '';
 
     word = word.toLowerCase().replace(' ', '');
     invertedWord = word.split('').reverse().join('');
