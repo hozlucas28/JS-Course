@@ -2,6 +2,8 @@
 (() => {
     'use strict'
 
+    /* ------------------------------- Constantes ------------------------------- */
+
     const calculateSquarePerimeter = document.getElementById('square-perimeter-button'),
           calculateSquareArea = document.getElementById('square-area-button'),
           calculateTrianglePerimeter = document.getElementById('triangle-perimeter-button'),
