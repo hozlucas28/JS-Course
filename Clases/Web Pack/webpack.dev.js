@@ -1,7 +1,7 @@
 
 /* ----------------------------- Requerimientos ----------------------------- */
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 
@@ -9,14 +9,14 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 /* --------------------------------- Módulos -------------------------------- */
 
 module.exports = {
-    mode : 'development',
+    mode : "development",
     output: {clean: true},
 
     module: {
         rules: [
             {
                 test: /\.html$/i,
-                loader: 'html-loader',
+                loader: "html-loader",
                 options: {sources: false}
             },
             {
@@ -30,9 +30,9 @@ module.exports = {
             },
             {
                 test: /\.png/,
-                type: 'asset/resource',
+                type: "asset/resource",
                 generator: {
-                    filename: 'img/[hash][ext][query]'
+                    filename: "img/[hash][ext][query]"
                 }
             }
         ]
@@ -40,11 +40,11 @@ module.exports = {
     
     plugins: [
         new HtmlWebpackPlugin ({
-            template: 'src/index.html',
-            filename: 'index.html'
+            template: "src/index.html",
+            filename: "index.html"
         }),
         new MiniCssExtractPlugin ({
-            filename: 'main.css'
+            filename: "main.css"
         })
     ]
 };
