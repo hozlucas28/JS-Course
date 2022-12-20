@@ -1,17 +1,13 @@
-
 /* -------------------------- Variables y Entradas -------------------------- */
 
-let salePrice = 0, IGV = 0;
+let salePrice = 0,
+	IGV = 0;
 let saleValue = parseFloat(prompt('Ingrese el precio de venta'));
-
-
 
 /* -------------------------------- Procesos -------------------------------- */
 
 IGV = saleValue * 0.19;
 salePrice = saleValue + IGV;
-
-
 
 /* --------------------------------- Salidas -------------------------------- */
 

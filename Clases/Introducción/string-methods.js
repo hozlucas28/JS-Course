@@ -1,4 +1,3 @@
-
 /* --------------------------------------------------------------------------
  * APUNTES:
  *          Las funciones recursivas se ejecutan a si mismas varias veces,
@@ -23,12 +22,9 @@
  *             - XXX.
 -------------------------------------------------------------------------- */
 
-
-
 /* -------------------------------- Variables ------------------------------- */
-let firstString = 'Java-Script', secondString = 'Hola Mundo de Java-Script';
-
-
+let firstString = 'Java-Script',
+	secondString = 'Hola Mundo de Java-Script';
 
 /* --------------------------- Procesos y Salidas --------------------------- */
 
@@ -44,7 +40,6 @@ console.log(firstString); //Salida N°3.
 
 firstString = firstString.split('');
 console.log(firstString); //Salida N°4.
-
 
 //Segundo String.
 secondString = secondString.split(' ');

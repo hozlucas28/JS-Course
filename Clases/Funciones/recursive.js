@@ -1,4 +1,3 @@
-
 /* --------------------------------------------------------------------------
  * APUNTES:
  *          Las funciones recursivas se ejecutan a si mismas varias veces,
@@ -13,20 +12,16 @@
 /* -------------------------------- Variables ------------------------------- */
 let number = 3;
 
-
-
 /* -------------------------------- Funciones ------------------------------- */
 
-function factorial(number) { 
-    console.log(number);
-    if (number > 1) {
-        number = number * factorial(number - 1);
-    };
+function factorial(number) {
+	console.log(number);
+	if (number > 1) {
+		number = number * factorial(number - 1);
+	}
 
-    return number;
-};
-
-
+	return number;
+}
 
 /* --------------------------------- Salidas -------------------------------- */
 

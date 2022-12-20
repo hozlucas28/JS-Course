@@ -1,41 +1,38 @@
-
 /* -------------------------------- Variables ------------------------------- */
-let tax = 0, payment = 0, discount = 0, totalToPay = 0, paymentWithDiscount = 0;
+let tax = 0,
+	payment = 0,
+	discount = 0,
+	totalToPay = 0,
+	paymentWithDiscount = 0;
 let dataDiscount = '';
-
-
 
 /* -------------------------------- Entradas -------------------------------- */
 
 payment = parseFloat(prompt('Ingrese el monto a pagar'));
 
-
-
 /* -------------------------------- Procesos -------------------------------- */
 
 switch (true) {
-    case (payment <= 100):
-        dataDiscount = '10%';
-        discount = payment * 0.1;
-        break;
-    
-    case ((payment > 100) && (payment <= 200)):
-        dataDiscount = '20%';
-        discount = payment * 0.2;
-        break;
+	case payment <= 100:
+		dataDiscount = '10%';
+		discount = payment * 0.1;
+		break;
 
-    default:
-        dataDiscount = '30%';
-        discount = payment * 0.3;
-        break;
-};
+	case payment > 100 && payment <= 200:
+		dataDiscount = '20%';
+		discount = payment * 0.2;
+		break;
+
+	default:
+		dataDiscount = '30%';
+		discount = payment * 0.3;
+		break;
+}
 
 paymentWithDiscount = payment - discount;
 
 tax = paymentWithDiscount * 0.19;
 totalToPay = paymentWithDiscount + tax;
-
-
 
 /* --------------------------------- Salidas -------------------------------- */
 

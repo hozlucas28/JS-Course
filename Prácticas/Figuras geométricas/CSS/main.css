@@ -1,172 +1,168 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 body {
-    font-size: 18px;
-    font-family: sans-serif;
-    background-color: white;
+	font-size: 18px;
+	font-family: sans-serif;
+	background-color: white;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                 Encabezado                                 */
 /* -------------------------------------------------------------------------- */
 
 .header {
-    padding: 5px 0px;
-    text-align: center;
-    background-color: #253062;
+	padding: 5px 0px;
+	text-align: center;
+	background-color: #253062;
 }
 
 .header-tittle {
-    padding: 10px 0px;
-    text-transform: uppercase;
-    color: white;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	color: white;
 }
 
 .header-description {
-    padding: 10px 0px;
-    text-transform: none;
-    color: white;
+	padding: 10px 0px;
+	text-transform: none;
+	color: white;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                  RESPUESTA                                 */
 /* -------------------------------------------------------------------------- */
 
 .answer {
-    padding: 10px 0px;
-    text-align: center;
+	padding: 10px 0px;
+	text-align: center;
 }
 
 .answer p {
-    font-size: 25px;
-    font-weight: bold;
+	font-size: 25px;
+	font-weight: bold;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                    CAJAS                                   */
 /* -------------------------------------------------------------------------- */
 
 .figures {
-    margin: auto;
-    padding: 10px;
-    width: 90%;
-    max-width: 1000px; /* Atributo para el "Diseño Responsivo" */
-    overflow: hidden;
+	margin: auto;
+	padding: 10px;
+	width: 90%;
+	max-width: 1000px; /* Atributo para el "Diseño Responsivo" */
+	overflow: hidden;
 }
 
 .box {
-    margin: 15px;
-    width: 30%;
-    height: 600px;
-    border: 3px solid #253062;
-    border-radius: 10px;
-    float: left;
+	margin: 15px;
+	width: 30%;
+	height: 600px;
+	border: 3px solid #253062;
+	border-radius: 10px;
+	float: left;
 }
 
 .box-header {
-    padding: 15px 0px;
-    text-align: center;
-    color: white;
-    background-color: #253062;
+	padding: 15px 0px;
+	text-align: center;
+	color: white;
+	background-color: #253062;
 }
 
 .box-main {
-    padding: 10px;
-    text-align: center;
+	padding: 10px;
+	text-align: center;
 }
 
 .box-main-text {
-    font-size: 20px;
-    font-weight: bold;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .box-main-input {
-    margin: 10px;
-    padding: 10px;
-    height: 40px;
-    width: 200px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #253062;
-    border: solid #253062;
-    border-radius: 5px;
-    display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	height: 40px;
+	width: 200px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #253062;
+	border: solid #253062;
+	border-radius: 5px;
+	display: inline-block;
 }
 
 .box-main-button {
-    margin: 5px 5px 10px;
-    padding: 10px;
-    width: 120px;
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    border-style: none;
-    border-radius: 10px;
-    background-color: #253062;
+	margin: 5px 5px 10px;
+	padding: 10px;
+	width: 120px;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	border-style: none;
+	border-radius: 10px;
+	background-color: #253062;
 }
 
 .box-main-button:hover {
-    cursor: pointer;
-    background-color: #1b2550;
+	cursor: pointer;
+	background-color: #1b2550;
 }
 
 .box-main-button:active {
-    background-color: #4c5580;
+	background-color: #4c5580;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                              DISEÑO RESPONSIVO                             */
 /* -------------------------------------------------------------------------- */
 
-@media screen and (max-width: 1021px) { /* Pantalla de 1021px */
-    .figures {
-        width: 100%;
-    }
+@media screen and (max-width: 1021px) {
+	/* Pantalla de 1021px */
+	.figures {
+		width: 100%;
+	}
 }
 
-@media screen and (max-width: 800px) { /* Pantalla de 800px - Tablet (horizontal) */
-    .box {
-        margin: 10px;
-    }
+@media screen and (max-width: 800px) {
+	/* Pantalla de 800px - Tablet (horizontal) */
+	.box {
+		margin: 10px;
+	}
 }
 
-@media screen and (max-width: 600px) { /* Pantalla de 600px - Tablet (vertical) */
-    .box {
-        margin: 25px;
-        width: 90%;
-        height: auto;
-    }
+@media screen and (max-width: 600px) {
+	/* Pantalla de 600px - Tablet (vertical) */
+	.box {
+		margin: 25px;
+		width: 90%;
+		height: auto;
+	}
 }
 
-@media screen and (max-width: 667px) { /* Pantalla de 667px - IPhone SE (horizontal) */
-    .box {
-        height: auto;
-        width: 90%;
-        margin: 25px;
-    }
+@media screen and (max-width: 667px) {
+	/* Pantalla de 667px - IPhone SE (horizontal) */
+	.box {
+		height: auto;
+		width: 90%;
+		margin: 25px;
+	}
 }
 
-@media screen and (max-width: 375px) { /* Pantalla de 375px - IPhone SE (vertical) */
-    .box {
-        margin: 20px;
-        width: 90%;
-        height: auto;
-    }
+@media screen and (max-width: 375px) {
+	/* Pantalla de 375px - IPhone SE (vertical) */
+	.box {
+		margin: 20px;
+		width: 90%;
+		height: auto;
+	}
 }

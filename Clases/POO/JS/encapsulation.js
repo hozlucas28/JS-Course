@@ -1,39 +1,39 @@
-
 /* --------------------------------- Clases --------------------------------- */
 
 class Person {
-    //Atributos privados.
-    #name;
-    #age;
+	//Atributos privados.
+	#name;
+	#age;
 
-    constructor(name, age) {
-        this.#name = name;
-        this.#age = age;
-        this.#privateMethod();
-    };
+	constructor(name, age) {
+		this.#name = name;
+		this.#age = age;
+		this.#privateMethod();
+	}
 
-    #privateMethod() { //Método privado.
-        console.log('SOY UN MÉTODO PRIVADO.');
-    }
+	#privateMethod() {
+		//Método privado.
+		console.log('SOY UN MÉTODO PRIVADO.');
+	}
 
-    set setName(name) { //Modificar atributo privado.
-        this.#name = name;
-    };
+	set setName(name) {
+		//Modificar atributo privado.
+		this.#name = name;
+	}
 
-    set setAge(age) {
-        this.#age = age;
-    };
+	set setAge(age) {
+		this.#age = age;
+	}
 
-    get getName() { //Devolver atributo privado.
-        return this.#name;
-    };
+	get getName() {
+		//Devolver atributo privado.
+		return this.#name;
+	}
 
-    get getAge() {
-        return this.#age;
-    };
-};
-
-
+	get getAge() {
+		return this.#age;
+	}
+}
 
 /* --------------------------- Procesos y Salidas --------------------------- */
 

@@ -1,18 +1,16 @@
-
 /* --------------------------------- Clases --------------------------------- */
 
 //Método nuevo.
 class Person {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    };
+	constructor(name, age) {
+		this.name = name;
+		this.age = age;
+	}
 
-    showData() {
-        console.log(this.name, this.age);
-    };
+	showData() {
+		console.log(this.name, this.age);
+	}
 }
-
 
 /* --------------------------- Procesos y Salidas --------------------------- */
 

@@ -1,9 +1,6 @@
-
 /* ----------------------------- Modificaciones ----------------------------- */
 
 document.write('<h1>Hola Mundo</h1>'); //Muestra un texto con formato HTML en la página.
-
-
 
 /* --------------------------------- Salidas -------------------------------- */
 

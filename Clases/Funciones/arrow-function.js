@@ -1,4 +1,3 @@
-
 /* --------------------------------------------------------------------------
  * APUNTES:
  *          La función flecha sirve para reducir la sintaxis de las
@@ -10,18 +9,15 @@
  *             - XXX.
 -------------------------------------------------------------------------- */
 
-
-
 /* ------------------------- Constantes de Funciones ------------------------ */
 
-const add = (a, b) => (a + b); //Función flecha - Simple.
+const add = (a, b) => a + b; //Función flecha - Simple.
 
-const greet = (text) => { //Función flecha - Compleja.
-    console.log(`Hola Mundo, mi nombre es ${text}`);
-    return '';
+const greet = (text) => {
+	//Función flecha - Compleja.
+	console.log(`Hola Mundo, mi nombre es ${text}`);
+	return '';
 };
-
-
 
 /* -------------------------------- Funciones ------------------------------- */
 
@@ -30,8 +26,6 @@ function add(a, b) { //Mala práctica, se debe utilizar función flecha.
     return (a + b);    
 };
 */
-
-
 
 /* --------------------------------- Salidas -------------------------------- */
 

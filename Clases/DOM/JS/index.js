@@ -1,4 +1,3 @@
-
 /* --------------------------------------------------------------------------
  * APUNTES:
  * 		   - <document>: selecciona todos los elementos del documento html.
@@ -27,8 +26,6 @@ document.querySelector('html').lang = 'en'; //Modifica dicho atributo de la etiq
 document.querySelector('title').innerText = 'DOM desde JavaScript'; //Modifica el valor de <title> (sin HTML).
 document.querySelector('header').innerHTML = '<h1>Titulo H1 desde JavaScript</h1>'; //Modifica el valor de <title> (con HTML).
 
-
-
 /* -------------------------------- Variables ------------------------------- */
 let allDivs = document.querySelectorAll('div');
 let firstDiv = document.querySelector('div');
@@ -41,8 +38,6 @@ document.getElementById('box-1'); //Segundo método.
 
 let button = document.createElement('button');
 let secondBox = document.getElementById('box-2');
-
-
 
 /* -------------------------------- Procesos -------------------------------- */
 

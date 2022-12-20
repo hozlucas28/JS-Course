@@ -1,4 +1,3 @@
-
 /* ------------------- Constantes, Variables y Operaciones ------------------ */
 const surname = 'Hoz'; //Define una variable constante (inmodificable).
 console.log(surname); //Salida N°1.

@@ -1,18 +1,14 @@
-
 /* -------------------------- Variables y Entradas -------------------------- */
 
-let quotient = 0, remainder = 0;
+let quotient = 0,
+	remainder = 0;
 let firstNumber = Number(prompt('Ingrese un número entero')),
-    secondNumber = Number(prompt('Ingrese un número entero'));
-
-
+	secondNumber = Number(prompt('Ingrese un número entero'));
 
 /* -------------------------------- Procesos -------------------------------- */
 
 quotient = firstNumber / secondNumber;
 remainder = firstNumber % secondNumber;
-
-
 
 /* ----------------------------- Modificaciones ----------------------------- */
 
