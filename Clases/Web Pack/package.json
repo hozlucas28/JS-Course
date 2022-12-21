@@ -11,7 +11,7 @@
 		"start:prod-server": "webpack server --config=webpack.prod.js --open"
 	},
 	"author": "Lucas Hoz",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@babel/core": "^7.19.3",
 		"@babel/preset-env": "^7.19.3",
