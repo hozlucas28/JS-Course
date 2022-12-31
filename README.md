@@ -63,10 +63,10 @@
             <a href="https://github.com/hozlucas28/Python-Course-2022" target="_blank">Repository of Python course</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/Django-Course-2022" target="_blank">Repository of Django course</a>
+            <a href="https://github.com/hozlucas28/Flask-Course-2022" target="_blank">Repository of Flask course</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/Flask-Course-2022" target="_blank">Repository of Flask course</a>
+            <a href="https://github.com/hozlucas28/Django-Course-2022" target="_blank">Repository of Django course</a>
         </li>
     </ul>
 </p>
