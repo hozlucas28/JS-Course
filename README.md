@@ -30,7 +30,7 @@
     Installation
 </h2>
 <p>
-    Clone the repository, install <a href="https://nodejs.org/es/" target="_blank">Node.js</a> and use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (code editor) with <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a> (extension) installed. Now you have to different ways:
+    Clone the repository, install <a href="https://nodejs.org/es/" target="_blank">Node.js</a> (runtime environment) and use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (code editor) with <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a> (extension) installed. Now you have to different ways:
     <ul>
         <li>
             <strong>Specific JS:</strong> if you want to test a specific JavaScript file write <code>node &lt;FILE NAME&gt;</code> in a console, and you are going to see a result in your console.
