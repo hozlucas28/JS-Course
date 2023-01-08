@@ -33,7 +33,7 @@
     Clone the repository, install <a href="https://nodejs.org/es/" target="_blank">Node.js</a> (runtime environment) and use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (code editor) with <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a> (extension) installed. Now you have to different ways:
     <ul>
         <li>
-            <strong>Specific JS:</strong> if you want to test a specific JavaScript file write <code>node &lt;FILE NAME&gt;</code> in a console, and you are going to see a result in your console.
+            <strong>Specific JS:</strong> if you want to test a specific JavaScript file write <code>node &lt;FILE NAME&gt;</code> in a terminal, and you are going to see a result in your terminal.
         </li>
         <li>
             <strong>HTML With Linked JS:</strong> if you want to test JavaScript file/s linked with a HTML file, press <i>right click</i> on HTML file, and then select the option: <i>Open with live server</i>. Automatically, it will open your default browser with the HTML file (rendered) that you selected, and depends of the action that takes JavaScript file/s, you are going to see a result on this HTML rendered or in browser console.
